@@ -1,5 +1,5 @@
 # Orca
-Orca is a scalable and distributed commandline tool to do performance testing written in Java. Currently it only supports REST Api's performance testing. It provides interactive shell where user can submit a performance job for rest apis. For high throughput apis User can create a cluster of Orca nodes and submit job to cluster. Orca also has inbuilt features to generate dynamic request data and request url, User don't need to write any code.
+Orca is a scalable and distributed commandline tool to do performance testing written in Java. Currently it only supports REST Api's performance testing. It provides interactive shell where user can submit a performance job for rest apis. For high load generation requirement, Users can create a cluster of nodes and submit job to cluster. For Dynamic request body and Url generation Orca has inbuilt features, Users have to provide only a template file and supporting data file.
 
 # Version
 1.0
