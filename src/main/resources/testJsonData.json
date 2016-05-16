@@ -1,0 +1,59 @@
+{
+  "bodyParams": {
+    "user": {
+      "type": "USE_MULTIPLE",
+      "values": [
+        {
+          "name": "Shwet",
+          "lastName": "Shashank"
+        },
+        {
+          "name": "Shwet1",
+          "lastName": "Shashank1"
+        },
+        {
+          "name": "Shwet2",
+          "lastName": "Shashank2"
+        },
+        {
+          "name": "Shwet3",
+          "lastName": "Shashank3"
+        },
+        {
+          "name": "Shwet4",
+          "lastName": "Shashank4"
+        }
+      ]
+    },
+    "accessToken": {
+      "type": "USE_MULTIPLE",
+      "values": [
+        "fjkewfkjhewf",
+        "fkewnfkw",
+        "efwefkwkfklewhf",
+        "kjfejkewhfjkhf"
+      ]
+    }
+  },
+  "urlParams": {
+    "userId": {
+      "type": "USE_ONCE",
+      "values": [1,2,3,4,5,6,7, 8,9,10]
+    }
+  },
+  "generators": {
+    "userId" : {
+      "type": "NUMERIC",
+      "properties": {
+        "limit": "100",
+        "offset": "1"
+      }
+    },
+    "accessToken": {
+      "type": "ALPHA_NUMERIC",
+      "properties": {
+        "length": "10"
+      }
+    }
+  }
+}

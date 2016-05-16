@@ -1,0 +1,1 @@
+{ {{#user}}"name":"{{name}} {{lastName}}"{{/user}},"accessToken": "{{accessToken}}" }

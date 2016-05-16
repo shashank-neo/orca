@@ -1,0 +1,34 @@
+
+# Created by https://www.gitignore.io/api/intellijja,java,maven
+
+#!! ERROR: intellijja is undefined. Use list command to see defined gitignore types !!#
+
+### Java ###
+*.class
+*.iml
+*.log
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+### Maven ###
+target/
+target*/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.idea/
