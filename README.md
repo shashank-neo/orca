@@ -6,7 +6,7 @@ Orca is a scalable and distributed commandline tool to do performance testing wr
 
 # Documentation
 
-Check Wiki for detailed documentation.
+Check https://github.com/shashank-neo/orca/wiki for detailed documentation.
 
 # Contribution, Bugs and Feedback
 
